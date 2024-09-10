@@ -2,7 +2,8 @@
 //
 
 #include <iostream>
-#include "seat.h"
+#include "Seat.h"
+#include "Flight.h"
 
 
 int main()
@@ -12,6 +13,9 @@ int main()
     int a = my_seat.getPrice();
     my_seat.setPrice(30);
     int b = my_seat.getPrice();
+    Seat seat2("A4", 35);
+    std::vector<Seat> seats({ my_seat, seat2 });
+    Flight my_flight("AB578", "2.02.2004", seats);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
