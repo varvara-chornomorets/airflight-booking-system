@@ -2,10 +2,16 @@
 //
 
 #include <iostream>
+#include "seat.h"
+
 
 int main()
 {
     std::cout << "Hello World!\n";
+    Seat my_seat("A5", 20);
+    int a = my_seat.getPrice();
+    my_seat.setPrice(30);
+    int b = my_seat.getPrice();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

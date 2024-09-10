@@ -5,3 +5,11 @@
 *.vcxproj
 *.filters
 *.user
+*.tlog
+*.recipe
+*.ilk
+*.log
+*.obj
+*.idb
+*.pdb
+*.exe
